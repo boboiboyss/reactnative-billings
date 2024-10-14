@@ -59,7 +59,7 @@ const bills = [
   },
 ];
 
-export default function HomePage() {
+export default function Homescreen() {
   const [selectedStatus, setSelectedStatus] = useState<string | null>(null);
   const [selectedLocation, setSelectedLocation] = useState<string | null>(null);
   const [selectedJenisTagihan, setSelectedJenisTagihan] = useState<
